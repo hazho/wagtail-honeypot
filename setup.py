@@ -42,7 +42,7 @@ setup(
         "Framework :: Wagtail :: 2",
         "Framework :: Wagtail :: 3",
     ],
-    install_requires=["Django>=3.0,<4.1", "Wagtail>=2.14,<4.0"],
+    install_requires=["Django>=3.0,<4.1", "Wagtail>=2.14,<7.0"],
     extras_require={
         "testing": ["flake8", "isort", "black", "coverage", "tox"],
     },
